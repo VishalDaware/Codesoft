@@ -1,0 +1,429 @@
+HTML code
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="asidenav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="#Social Media">Social Media</a></li>
+        </ul>
+    </nav>
+    <div class="Home" id="home">
+        <img src="/darkwp.jpg" class="backgimg" alt="darkwp" height="349" width="608">
+        <div class="Heading">
+            <pre id="Home"><h1 class="typing-animation">Hey,This is Vishal </h1><h3 class="typing-animation">Web Developer|Data Analyst</h3>
+    </pre>
+            <br><br>
+            <p><a href="#About" class="aa"><i class="typing-animation">want to know more <b>click here</b></i></a></p>
+        </div>
+    </div>
+
+    <div class="About" id="About">
+        <br>
+        <h1>About Me</h1>
+        <br>
+        <h5>I'm Vishal, Web Developer</h5>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quaerat sequi dolor. Voluptas molestiae repudiandae saepe ipsa officiis consequuntur et aspernatur voluptatem molestias, odit sed velit totam itaque accusantium asperiores.
+       Magni amet molestias nulla repudiandae, quae laudantium sed velit fuga, porro perspiciatis odit at libero fugit ratione deleniti et, aspernatur dicta veniam. Saepe corporis enim provident ullam itaque hic modi?
+       Deserunt aspernatur sed est tempore alias nulla reprehenderit quasi eum quo voluptas aliquam repellendus, molestias sequi odit, laudantium nostrum consectetur maxime veniam itaque facilis inventore? Et nulla praesentium inventore natus!</p>
+       <br>
+
+       <h2>Skills</h2>
+       <div class="png1">
+       <img src="/html-removebg-preview.png" alt="HTML" class="html" height="100px">
+       <img src="/css-removebg-preview.png" alt="CSS" class="css" height="100px">
+       <img src="/js-removebg-preview.png" alt="JS" class="js" height="100px">
+       <img src="/java-removebg-preview.png" alt="Core java" class="java" height="120px">
+       <img src="/Mysql_logo-removebg-preview.png" alt="mysql" class="mysql" height="80px">
+       <img src="/powerBI-removebg-preview.png" alt="Power BI" class="powerBI" height="100px">
+    </div>
+    </div>
+
+    <div class="Project" id="project">
+        <br><br>
+        <h1>Projects</h1>
+        <br><br>
+        <section class="pro">
+            <h3>PROJECT 1 NAME</h3>
+            <h6>Discription</h6>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente dignissimos ab temporibus nulla accusantium vero, quae deserunt voluptatem enim. Illum voluptate porro tenetur, a ea animi officiis ullam repellendus iste?</p>
+            <a href="#projectlink">Project link</a>
+        </section>
+        <br><br>
+        <section class="pro">
+            <h3>PROJECT 2 NAME</h3>
+            <h6>Discription</h6>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente dignissimos ab temporibus nulla accusantium vero, quae deserunt voluptatem enim. Illum voluptate porro tenetur, a ea animi officiis ullam repellendus iste?</p>
+            <a href="#projectlink">Project link</a>
+        </section>
+        <br><br>
+        <section class="pro">
+            <h3>PROJECT 3 NAME</h3>
+            <h6>Discription</h6>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente dignissimos ab temporibus nulla accusantium vero, quae deserunt voluptatem enim. Illum voluptate porro tenetur, a ea animi officiis ullam repellendus iste?</p>
+            <a href="#projectlink">Project link</a>
+        </section>
+    </div>
+        
+    <div class="contact" id="Contact">
+        <section id="contact-form" class="contact-form">
+            <div class="cf">
+            <h1>Contact Me</h1>
+            <br>
+            <form action="#contact-me">
+                <label for="Name" class="head">Name</label><br>
+                <input type="text" id="name" class="name" placeholder="Enter your full name" required>
+                <br>
+                <label for="email" class="head">E-mail</label><br>
+                <input type="email" id="email" class="email" placeholder="Enter your email id" required>
+                <br>
+                <label for="Phone" class="head">Phone no.</label><br>
+                <input type="numbre" id="phone-no" class="phone-no" placeholder="Enter your phone no." required>
+                <br>
+                <label for="massage" class="head">Massage</label><br>
+                <textarea name="massage" id="massage" class="massage" placeholder="Enter your massage" required></textarea>
+                <br>
+                <button type="submit" id="submit" class="submit">Submit</button>
+            </form>
+        </div>
+        </section>
+    </div>
+
+    <div class="social_media" id="Social Media">
+       <section class="logo">
+        <a href="https://www.linkedin.com/in/vishal-daware1307" target="_blank"><img src="https://itcnet.gr/wp-content/uploads/2020/09/Linkedin-logo-on-transparent-Background-PNG-.png" alt="LinkdIn" height="50"></a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias neque ipsa consequuntur aspernatur? Ducimus suscipit, alias repellendus exercitationem perferendis consequuntur accusamus aspernatur omnis unde dolorem quos tempora minima asperiores laudantium.</p>
+        <br>
+        <a href="https://mail.google.com"><img src="https://logos-world.net/wp-content/uploads/2020/11/Gmail-Logo.png" alt="gmail" width="70"></a>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus autem ex aliquid nemo assumenda est minus nulla distinctio hic doloremque, laudantium quam voluptatum, cumque dignissimos possimus qui magnam sapiente quas.</p>
+        <br>
+        <a href="https://github.com/VishalDaware"><img src="https://static-00.iconduck.com/assets.00/github-icon-512x512-61im4xuw.png" alt="Github" height="50"></a>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde voluptatem, tenetur quidem sit reiciendis a dolores obcaecati fugit! Dolore voluptatibus quod nisi quibusdam dolorem eligendi labore amet enim commodi aspernatur!</p>
+        <br>
+        <a href="https://instagram.com/"> <img src="https://pngimg.com/uploads/instagram/instagram_PNG10.png" alt="Instagram" height="50"></a>
+        <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur voluptate, eligendi suscipit ad necessitatibus modi labore excepturi consectetur dolorum aut commodi quis saepe deserunt magnam corporis eius quibusdam vitae eaque.
+       </section>
+       <section>
+        <h3 class="ty">Thank You...!</h3>
+       </section>
+    </div>
+   
+</body>
+
+</html>
+
+
+css code
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:cursive;  
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.asidenav{
+    flex-direction: column;
+    justify-content:start;
+    width: 200px;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    
+}
+.asidenav ul{
+    list-style-type: none;
+    font-size: large;
+}
+.asidenav ul li{
+    margin: 30px;
+}
+
+
+.Heading{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    position:relative ;
+    top:270px;
+    right: 150px;
+    font-size: large;
+    color: aliceblue;
+    
+}
+.aa {
+    text-decoration:none ;
+    color: inherit;
+}
+
+.Home{
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    right: 0;
+    position: absolute;
+    height: 700px;
+    width: 86.8%;
+    border-radius: 30px;
+    text-align: center; 
+    overflow: hidden; 
+}
+.Home::before{
+    content: '';
+    position: absolute;
+    top: -87px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(/laptop-minimal-display-wooden-board.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    z-index: -1; 
+    border-radius: 30px
+}
+.backgimg{
+    transform: translate(-50% -50%);
+    position: absolute;
+    top: 180px;
+    left: 192px;
+    border-radius: 13px;
+    box-sizing: border-box;
+    
+}
+.typing-animation{
+    overflow: hidden;
+    font-weight: 700;
+    border-right: 0.15 solid orange;
+    white-space: nowrap;
+    animation:  typing 4s;
+}
+@keyframes typing{
+    from{
+        width: 0;
+    }
+    to{
+     width: 100%;
+    }
+}
+
+
+.About{
+    margin: 0%;
+    padding: 0%;
+    top: 720px;
+    right: 0;
+    color: aliceblue;
+    background-image: url(/darklapy.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    background-position: center top -600px right;
+    position: absolute;
+    height: 100%;
+    width: 86.8%;
+    text-align:center ;
+
+}
+.png1{
+    background: none;
+}
+
+.png1{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    gap: 50px;
+}
+    
+    
+
+.png img{
+    display: block;  
+}
+.js{
+    position: relative;
+    right: 45px;
+}
+.mysql{
+    position: relative;
+    right: 40px;
+}
+.java{
+    position: relative;
+    right:50px ;
+}
+
+.Project {
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    top: 1430px;
+    right: 0;
+    position: absolute;
+    height: 700px;
+    width: 86.8%;
+    border-radius: 30px;
+    text-align: center; 
+    overflow: hidden; 
+}
+
+.Project::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(/codeback.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(5px); 
+    z-index: -1; 
+    border-radius: 30px; 
+}
+.pro{
+    border: solid;
+    border-radius: 30px;  
+    width: 90%;
+    position: relative;
+    left: 5%;
+    box-shadow: 10px 10px 8px #cde2ed;
+}
+
+.contact{
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    top: 2140px;
+    right: 0;
+    position: absolute;
+    height: 700px;
+    width: 86.8%;
+    border-radius: 30px; 
+    overflow: hidden; 
+}
+.contact::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-image: url(/th.jpeg);
+    background-size: cover;
+    z-index: -1;
+    filter: blur(5px);
+}
+.contact-form{
+   
+    width: 25%;
+    height: 50%;
+    position: absolute;
+    top: 20%;
+    right: 38%;
+}
+.cf{
+    position: relative;
+    left: 80px;
+    top: -80px;
+    font-size: 30px;
+}
+.name{
+    width: 80%;
+    height: 40px;
+    border-radius: 15px;
+    position: relative;
+    right: 15px;
+    box-shadow: 5px 5px 2px rgba(157, 146, 146, 0.408);
+}
+.email{
+    width: 80%;
+    height: 40px;
+    border-radius: 15px;
+    position: relative;
+    right: 15px;
+    box-shadow: 5px 5px 2px rgba(157, 146, 146, 0.408);
+}
+.phone-no{
+    width: 80%;
+    height: 40px;
+    border-radius: 15px;
+    position: relative;
+    right: 15px;
+    box-shadow: 5px 5px 2px rgba(157, 146, 146, 0.408);
+}
+.massage{
+    width: 80%;
+    height: 50px;
+    border-radius: 15px;
+    position: relative;
+    right: 15px;
+    box-shadow: 5px 5px 2px rgba(157, 146, 146, 0.408);
+}
+.submit{
+    position: relative;
+    left: 25%;
+    width: 20%;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px rgba(157, 146, 146, 0.408);
+}
+
+.social_media{
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    top: 2850px;
+    right: 0;
+    position: absolute;
+    height: 700px;
+    width: 86.8%;
+    border-radius: 30px;
+    overflow:hidden;
+}
+.social_media::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-image: url(/th\ \(1\).jpeg);
+    background-size: cover;
+    z-index: -1;
+     
+}
+.logo{
+    position: relative;
+    left: 60px;
+    top: 50px;
+}
+.ty{
+    position: relative;
+    left: 40%;
+    top: 150px;
+    font-size: 40px;
+}
+
+
